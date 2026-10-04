@@ -1,0 +1,14 @@
+{
+  "match_id": "match-001",
+  "title": "Sample Basketball Game",
+  "sport": "Basketball",
+  "teams": {
+    "home": "Team Alpha",
+    "away": "Team Beta"
+  },
+  "score": {
+    "home": 98,
+    "away": 95
+  },
+  "status": "completed"
+}

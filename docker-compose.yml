@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend/api
+    ports:
+      - "8080:8080"
+
+  gesture-service:
+    build: ./cv/gesture-service
+    ports:
+      - "5000:5000"

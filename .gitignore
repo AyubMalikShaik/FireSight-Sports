@@ -1,0 +1,22 @@
+# Git Ignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node dependencies
+node_modules/
+
+# Python / CV artifacts
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
